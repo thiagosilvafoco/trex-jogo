@@ -54,16 +54,16 @@ function draw(){
 background(estrada)
 
 if(keyDown("D")){
-ator.velocityX=+5
+ator.velocityX=+3
 }
 if(keyDown("A")){
-ator.velocityX=-5
+ator.velocityX=-3
 }
 if(keyDown("W")){
-ator.velocityY=-5
+ator.velocityY=-3
 }
 if(keyDown("S")){
-ator.velocityY=+5
+ator.velocityY=+3
 }
 if(ator.y<0.1){
 ator.x=300
